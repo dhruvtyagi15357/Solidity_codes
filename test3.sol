@@ -13,7 +13,7 @@ contract MathContract {
 
     function calculate() public {
         int a = 15;
-        int b = 110;
+        int b = 10;
         int sum = a + b;
         int product = a * b;
 
