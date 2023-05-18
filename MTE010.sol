@@ -4,5 +4,5 @@ pragma solidity ^0.8.17;
 
 contract cons {
       
-      uint8 a = -1;  
+      uint8 a =-1;  
 }
