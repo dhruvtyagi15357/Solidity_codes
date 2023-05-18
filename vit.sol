@@ -1,5 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
+//include a library in the next line:
+import "./test2.sol" as test2;
+
 contract vitbhopal{
     uint128 public s;
     uint128 public f;
@@ -27,9 +30,6 @@ contract vitbhopal{
     //     s = s+f;
     //     return s;
     // }
-
-
-
 
 
     function vit() public pure returns(uint){
