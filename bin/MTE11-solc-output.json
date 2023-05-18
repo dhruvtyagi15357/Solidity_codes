@@ -1,0 +1,274 @@
+{
+    "contracts": {
+        "d:/STUDY/VIT/Semester 06 - Winter inter 2 22-23/CSD3007 Blockchains and Crypto Currency/codes/Solidity_codes/MTE11.sol": {
+            "cons": {
+                "abi": [
+                    {
+                        "constant": false,
+                        "inputs": [],
+                        "name": "setter",
+                        "outputs": [],
+                        "payable": false,
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    },
+                    {
+                        "constant": true,
+                        "inputs": [],
+                        "name": "money",
+                        "outputs": [
+                            {
+                                "name": "",
+                                "type": "uint8"
+                            }
+                        ],
+                        "payable": false,
+                        "stateMutability": "view",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "60806040526000805460ff191660ff17905534801561001d57600080fd5b5060d68061002c6000396000f3fe60806040526004361060485763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633f3108f78114604d5780634ddd108a146061575b600080fd5b348015605857600080fd5b50605f6089565b005b348015606c57600080fd5b50607360a1565b6040805160ff9092168252519081900360200190f35b6000805460ff8082166001011660ff19909116179055565b60005460ff168156fea165627a7a72305820921fbe0cca60337369dede531ba9b924bd70600e0f441e1545e074c8fe0599070029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 SLOAD PUSH1 0xFF NOT AND PUSH1 0xFF OR SWAP1 SSTORE CALLVALUE DUP1 ISZERO PUSH2 0x1D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xD6 DUP1 PUSH2 0x2C PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x48 JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0x3F3108F7 DUP2 EQ PUSH1 0x4D JUMPI DUP1 PUSH4 0x4DDD108A EQ PUSH1 0x61 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x58 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x5F PUSH1 0x89 JUMP JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x6C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x73 PUSH1 0xA1 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0xFF SWAP1 SWAP3 AND DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0xFF DUP1 DUP3 AND PUSH1 0x1 ADD AND PUSH1 0xFF NOT SWAP1 SWAP2 AND OR SWAP1 SSTORE JUMP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0xFF AND DUP2 JUMP INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 SWAP3 0x1f 0xbe 0xc 0xca PUSH1 0x33 PUSH20 0x69DEDE531BA9B924BD70600E0F441E1545E074C8 INVALID SDIV SWAP10 SMOD STOP 0x29 ",
+                        "sourceMap": "141:130:0:-;;;172:22;;;-1:-1:-1;;172:22:0;191:3;172:22;;;141:130;5:2:-1;;;;30:1;27;20:12;5:2;141:130:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "60806040526004361060485763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633f3108f78114604d5780634ddd108a146061575b600080fd5b348015605857600080fd5b50605f6089565b005b348015606c57600080fd5b50607360a1565b6040805160ff9092168252519081900360200190f35b6000805460ff8082166001011660ff19909116179055565b60005460ff168156fea165627a7a72305820921fbe0cca60337369dede531ba9b924bd70600e0f441e1545e074c8fe0599070029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x48 JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0x3F3108F7 DUP2 EQ PUSH1 0x4D JUMPI DUP1 PUSH4 0x4DDD108A EQ PUSH1 0x61 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x58 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x5F PUSH1 0x89 JUMP JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x6C JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x73 PUSH1 0xA1 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0xFF SWAP1 SWAP3 AND DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 DUP1 SLOAD PUSH1 0xFF DUP1 DUP3 AND PUSH1 0x1 ADD AND PUSH1 0xFF NOT SWAP1 SWAP2 AND OR SWAP1 SSTORE JUMP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0xFF AND DUP2 JUMP INVALID LOG1 PUSH6 0x627A7A723058 KECCAK256 SWAP3 0x1f 0xbe 0xc 0xca PUSH1 0x33 PUSH20 0x69DEDE531BA9B924BD70600E0F441E1545E074C8 INVALID SDIV SWAP10 SMOD STOP 0x29 ",
+                        "sourceMap": "141:130:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;207:61;;8:9:-1;5:2;;;30:1;27;20:12;5:2;207:61:0;;;;;;172:22;;8:9:-1;5:2;;;30:1;27;20:12;5:2;172:22:0;;;;;;;;;;;;;;;;;;;;;;;207:61;251:5;;;;;;;;:7;245:13;-1:-1:-1;;245:13:0;;;;;;207:61::o;172:22::-;;;;;;:::o"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "42800",
+                            "executionCost": "20317",
+                            "totalCost": "63117"
+                        },
+                        "external": {
+                            "money()": "421",
+                            "setter()": "20378"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "money()": "4ddd108a",
+                        "setter()": "3f3108f7"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"setter\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"money\",\"outputs\":[{\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"d:/STUDY/VIT/Semester 06 - Winter inter 2 22-23/CSD3007 Blockchains and Crypto Currency/codes/Solidity_codes/MTE11.sol\":\"cons\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/STUDY/VIT/Semester 06 - Winter inter 2 22-23/CSD3007 Blockchains and Crypto Currency/codes/Solidity_codes/MTE11.sol\":{\"keccak256\":\"0xf15443fbcfdef024ea349fdb8e4015652c47f015f3f446e3efcfd778b0297dab\",\"urls\":[\"bzzr://0715f35b5b16209633ab9caf4529f0d930e6c3d3be9d6ec2af2f84e34e617149\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "d:/STUDY/VIT/Semester 06 - Winter inter 2 22-23/CSD3007 Blockchains and Crypto Currency/codes/Solidity_codes/MTE11.sol": {
+            "ast": {
+                "absolutePath": "d:/STUDY/VIT/Semester 06 - Winter inter 2 22-23/CSD3007 Blockchains and Crypto Currency/codes/Solidity_codes/MTE11.sol",
+                "exportedSymbols": {
+                    "cons": [
+                        15
+                    ]
+                },
+                "id": 16,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.5",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "114:23:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 15,
+                        "linearizedBaseContracts": [
+                            15
+                        ],
+                        "name": "cons",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 4,
+                                "name": "money",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 15,
+                                "src": "172:22:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint8",
+                                    "typeString": "uint8"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "uint8",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "172:5:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint8",
+                                        "typeString": "uint8"
+                                    }
+                                },
+                                "value": {
+                                    "argumentTypes": null,
+                                    "hexValue": "323535",
+                                    "id": 3,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "kind": "number",
+                                    "lValueRequested": false,
+                                    "nodeType": "Literal",
+                                    "src": "191:3:0",
+                                    "subdenomination": null,
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_rational_255_by_1",
+                                        "typeString": "int_const 255"
+                                    },
+                                    "value": "255"
+                                },
+                                "visibility": "public"
+                            },
+                            {
+                                "body": {
+                                    "id": 13,
+                                    "nodeType": "Block",
+                                    "src": "232:36:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "id": 11,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "leftHandSide": {
+                                                    "argumentTypes": null,
+                                                    "id": 7,
+                                                    "name": "money",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 4,
+                                                    "src": "245:5:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint8",
+                                                        "typeString": "uint8"
+                                                    }
+                                                },
+                                                "nodeType": "Assignment",
+                                                "operator": "=",
+                                                "rightHandSide": {
+                                                    "argumentTypes": null,
+                                                    "commonType": {
+                                                        "typeIdentifier": "t_uint8",
+                                                        "typeString": "uint8"
+                                                    },
+                                                    "id": 10,
+                                                    "isConstant": false,
+                                                    "isLValue": false,
+                                                    "isPure": false,
+                                                    "lValueRequested": false,
+                                                    "leftExpression": {
+                                                        "argumentTypes": null,
+                                                        "id": 8,
+                                                        "name": "money",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 4,
+                                                        "src": "251:5:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_uint8",
+                                                            "typeString": "uint8"
+                                                        }
+                                                    },
+                                                    "nodeType": "BinaryOperation",
+                                                    "operator": "+",
+                                                    "rightExpression": {
+                                                        "argumentTypes": null,
+                                                        "hexValue": "31",
+                                                        "id": 9,
+                                                        "isConstant": false,
+                                                        "isLValue": false,
+                                                        "isPure": true,
+                                                        "kind": "number",
+                                                        "lValueRequested": false,
+                                                        "nodeType": "Literal",
+                                                        "src": "257:1:0",
+                                                        "subdenomination": null,
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_rational_1_by_1",
+                                                            "typeString": "int_const 1"
+                                                        },
+                                                        "value": "1"
+                                                    },
+                                                    "src": "251:7:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint8",
+                                                        "typeString": "uint8"
+                                                    }
+                                                },
+                                                "src": "245:13:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint8",
+                                                    "typeString": "uint8"
+                                                }
+                                            },
+                                            "id": 12,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "245:13:0"
+                                        }
+                                    ]
+                                },
+                                "documentation": null,
+                                "id": 14,
+                                "implemented": true,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "setter",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 5,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "222:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 6,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "232:0:0"
+                                },
+                                "scope": 15,
+                                "src": "207:61:0",
+                                "stateMutability": "nonpayable",
+                                "superFunction": null,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 16,
+                        "src": "141:130:0"
+                    }
+                ],
+                "src": "114:159:0"
+            },
+            "id": 0
+        }
+    }
+}

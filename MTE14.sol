@@ -1,14 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract HelloWorld {
-    uint public Num;
-   /** constructor() public 
-    {
-        Num=55;
-    }*/
-
-    function SetNum() public {
-        Num=99;
-    }
+contract Array 
+{
+    uint[4] public arr=[11,22,33,44];
+   function setter(uint index, uint value) public 
+   {
+       arr[index]=value;
+   } 
+   function lenght() public view returns(uint) 
+{
+    return arr.length;
+}
 }

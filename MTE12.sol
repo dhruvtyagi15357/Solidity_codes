@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract HelloWorld {
-    uint public Num=22;
+contract Array 
+{
+    uint[4] public arr=[11,22,33,44];
     
 }

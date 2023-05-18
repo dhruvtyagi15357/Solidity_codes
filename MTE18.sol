@@ -1,10 +1,17 @@
 // SPDX-License-Identifier: MIT
-// compiler version must be greater than or equal to 0.8.17 and less than 0.9.0
 pragma solidity ^0.8.17;
 
-contract cons {
-    uint public age;
-    constructor (){
-        age=22; 
-    }    
+contract Array {
+    uint [3] public arr;
+    uint public count;
+
+    function loop() public 
+    {
+        while (count<arr.length)
+        {
+        arr[count]=count;
+        count++;
+        }
+    }
+    
 }

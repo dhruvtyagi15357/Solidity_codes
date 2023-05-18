@@ -1,11 +1,17 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract State {
-   // uint Age;    // STATE ARIABLE
-
-    function Age() public pure returns(uint) {
-       uint age=55;   // Local Variable
-       return age;
+contract Array 
+{
+    uint[] public arr;
+    function PushElement(uint a) public {
+        arr.push(a);
     }
+    function lenght() public view returns(uint) 
+{
+    return arr.length;
+}
+function popElement() public {
+    arr.pop();
+}
 }

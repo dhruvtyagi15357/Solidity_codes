@@ -1,14 +1,33 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract SetterGetter {
-    uint public  age=10;
-    
-    function getter()  public view returns(uint){
-        return age;
-    } 
-
-    function setter(uint newage) public {
-        age=newage;
+contract Logic
+{
+    function  Decision(uint x) public pure returns(uint)
+    {
+        if(x==100)
+        {
+            return 0;
+        } else if (x<5)
+        {
+            return 1;
+        } else 
+        {
+            return 10;
+        }
     }
 }
+
+// pragma solidity ^0.8.17;
+
+// contract IfElse {
+//     function Decision(uint x) public pure returns (uint) {
+//         if (x < 10) {
+//             return 0;
+//         } else if (x < 20) {
+//             return 1;
+//         } else {
+//             return 2;
+//         }
+//     }
+// }
