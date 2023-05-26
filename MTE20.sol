@@ -16,5 +16,4 @@ contract Array
     } while (count<arr.length);
     
     }
-
 }
